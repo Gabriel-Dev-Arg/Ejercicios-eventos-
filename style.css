@@ -1,0 +1,15 @@
+.bg-blue{
+    background-color: rgb(12, 44, 104);
+}
+
+body {
+    background-image: url('/img/contact_bg.png'); /* Cambia esta URL por la imagen que prefieras */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #2a2222;
+}
+
+.h-40{
+    height: 40vh;
+}
