@@ -30,29 +30,8 @@
         </div>
     </nav>
     </header>
-    <h1 class="text-center text-light">Aplicación de Notas</h1>
-        <p class="text-center text-light">Bienvenido a tu aplicación de notas. Usa el menú de navegación para acceder a diferentes secciones.</p>
-    <div class="container mt-4 d-flex flex-column align-items-center flex-wrap align-content-center justify-content-between ">
-        <div class="d-flex flex-column col-8 col-lg-6">
-        <div class="form-group ">
-            <input type="text" id="filtroTexto" class="form-control" placeholder="Filtrar por texto">
-        </div>
-        <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="alternarRealizadas()">
-            <label class="form-check-label" for="flexSwitchCheckDefault">Mostrar realizadas</label>
-        </div>
-        <div class="form-group mt-4">
-            <input type="text" id="titulo" class="form-control" placeholder="Título">
-        </div>
-        <div class="form-group">
-            <textarea id="texto" class="form-control" placeholder="Texto"></textarea>
-        </div>
-        <div class="col-12 justify-content-between d-flex">
-        <button class="btn btn-primary " onclick="agregarNota()">Guardar</button>
-        <button class="btn btn-secondary " onclick="limpiarCampos()">Limpiar</button>
-        </div>
-        </div>
-        <div id="contenedorNotas" class="mt-4 d-flex gap-3 row justify-content-center col-10"></div>
+    <div id="notas">
+
     </div>
 
     <footer>
